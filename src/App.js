@@ -15,7 +15,7 @@ function App() {
 
   const decrementMeal = () => {
     setMeals(meals - 1);
-    localStorage.setItem("meals", meals);
+    localStorage.setItem("meals", meals - 1);
   };
 
   return (
